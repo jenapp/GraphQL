@@ -6,7 +6,7 @@ templates_path = ['_templates']
 
 project = 'Smile'
 
-html_logo = 'logo.png',
+html_logo = 'logo'
 html_static_path = ['_static']
 
 html_theme_options = {    
