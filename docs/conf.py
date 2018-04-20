@@ -4,7 +4,7 @@ master_doc = 'index'
 
 templates_path = ['_templates']
 
-project = u 'Smile'
+project = u'Smile'
 
 html_logo = 'logo.png'
 html_static_path = ['_static']
