@@ -9,6 +9,7 @@ project = 'Smile'
 html_logo = 'logo.png'
 html_static_path = ['_static']
 
+html_theme = "sphinx_rtd_theme"
 html_theme_options = {    
     'canonical_url': '',
     'analytics_id': '',
