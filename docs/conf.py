@@ -6,10 +6,10 @@ templates_path = ['_templates']
 
 project = 'Smile'
 
-html_theme_options = {
-    'html_logo': 'logo.png',
-    'html_static_path': ['_static']
-    
+html_logo = 'logo.png',
+html_static_path = ['_static']
+
+html_theme_options = {    
     'canonical_url': '',
     'analytics_id': '',
     'logo_only': False,
