@@ -2,7 +2,12 @@
 # The master toctree document.
 master_doc = 'index'
 
+templates_path = ['_templates']
+
+project = 'Smile'
+
 html_theme_options = {
+    
     'canonical_url': '',
     'analytics_id': '',
     'logo_only': False,
