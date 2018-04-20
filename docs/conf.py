@@ -1,3 +1,8 @@
+
+# The master toctree document.
+master_doc = 'index'
+
+html_theme = "sphinx_rtd_theme"
 html_theme_options = {
     'canonical_url': '',
     'analytics_id': '',
@@ -13,6 +18,3 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
-
-# The master toctree document.
-master_doc = 'index'
