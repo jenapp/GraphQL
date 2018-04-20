@@ -7,6 +7,8 @@ templates_path = ['_templates']
 project = 'Smile'
 
 html_theme_options = {
+    'html_logo': 'logo.png',
+    'html_static_path': ['_static']
     
     'canonical_url': '',
     'analytics_id': '',
