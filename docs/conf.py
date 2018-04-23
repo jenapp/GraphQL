@@ -5,25 +5,21 @@ master_doc = 'index'
 templates_path = ['_templates']
 
 project = u'Smile'
-copyright = u'2018, Inomial Pty Ltd'
+#copyright = u'2018, Inomial Pty Ltd'
+copyright = '2018-{}, Inomial Pty Ltd & contributors'.format(
+    timezone.now().year
+)
 
-html_logo = 'logo.png'
+#html_logo = 'logo.png'
+#html_static_path = ['_static']
+
+#html_theme_path = ['_themes']
+
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-
-html_theme = 'default'
-html_theme_path = ['_themes']
-html_theme_options = {    
-    'canonical_url': '',
-    'analytics_id': '',
-    'logo_only': False,
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_logo = 'logo.png'
+html_theme_options = {
+    'logo_only': True,
     'display_version': False,
-    'prev_next_buttons_location': 'top',
-    'style_external_links': False,
-    'vcs_pageview_mode': '',
-    # Toc options
-    'collapse_navigation': True,
-    'sticky_navigation': False,
-    'navigation_depth': -1,
-    'includehidden': True,
-    'titles_only': False
 }
