@@ -21,5 +21,5 @@ html_logo = 'logo.png'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
-    'prev_bext_buttons_location': 'top',
+    'prev_next_buttons_location': 'top',
 }
