@@ -10,6 +10,7 @@ copyright = u'2018, Inomial Pty Ltd'
 html_logo = 'logo.png'
 html_static_path = ['_static']
 
+html_theme = 'default'
 html_theme_path = ['_themes']
 html_theme_options = {    
     'canonical_url': '',
