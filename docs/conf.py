@@ -6,9 +6,7 @@ templates_path = ['_templates']
 
 project = u'Smile'
 #copyright = u'2018, Inomial Pty Ltd'
-copyright = '2018-{}, Inomial Pty Ltd & contributors'.format(
-    timezone.now().year
-)
+copyright = '2018-{}, Inomial Pty Ltd & contributors'
 
 #html_logo = 'logo.png'
 #html_static_path = ['_static']
