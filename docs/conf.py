@@ -5,7 +5,6 @@ master_doc = 'index'
 templates_path = ['_templates']
 
 project = u'Smile'
-#copyright = u'2018, Inomial Pty Ltd'
 copyright = '2018, Inomial Pty Ltd & contributors'
 
 #html_logo = 'logo.png'
@@ -21,5 +20,4 @@ html_logo = 'logo.png'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
-    'prev_next_buttons_location': 'top',
 }
